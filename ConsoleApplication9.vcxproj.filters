@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="modules\natives">
+      <UniqueIdentifier>{2dc1e07e-986c-423d-865b-9787030e7f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\utils">
+      <UniqueIdentifier>{c9b3478a-fb06-4ed6-bc93-aa508aea2386}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\framework.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\pch.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\pch.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\natives\window.ixx">
+      <Filter>modules\natives</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\natives\window_handle.ixx">
+      <Filter>modules\natives</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\utils\convert.ixx">
+      <Filter>modules\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\utils\logger.ixx">
+      <Filter>modules\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\utils\register_class.ixx">
+      <Filter>modules\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
